@@ -17,3 +17,6 @@ v0.1
 include::utils/download.adoc[]
 
 :leveloffset: +1
+
+
+include::utils/stats.adoc[]
