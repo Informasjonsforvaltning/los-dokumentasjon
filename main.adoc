@@ -2,7 +2,6 @@ include::utils/translation.adoc[]
 
 = Los
 Direktoratet for forvaltning og IKT
-
 :description:
 :doctype: book
 :icons: font
