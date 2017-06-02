@@ -122,8 +122,9 @@ I Los er både hovedkategorier, underkategorier og emneord et _SKOS concept_. Di
 
 Eksempel på underkategorien “arbeidsliv” uttrykt i SKOS:
 
+[cols="1,2", options="header"]
 |===
-|*Hva som beskrives:*|*Hvordan dette er uttrykt i SKOS:*
+| Hva som beskrives: | Hvordan dette er uttrykt i SKOS:
 
 |Referanse til rdf-skjemaet for gjeldende vokabular|`<skos:inScheme rdf:resource="http://psi.norge.no/los/ontologi/tema/>`
 |Emneordets foretrukne skrivemåte på nynorsk|`<skos:prefLabel xml:lang="nn">Arbeidsliv</skos:prefLabel>`
@@ -135,25 +136,28 @@ Eksempel på underkategorien “arbeidsliv” uttrykt i SKOS:
 
 
 Videre er emneordet “sykefravær” uttrykt slik i SKOS (denne gangen et eksempel i fullstendig RDF):
+
+[source,xml]
 ----
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#[http://www.w3.org/2004/02/skos/core#]"> +
-<rdf:Description rdf:about="http://psi.norge.no/los/ord/sykefravaer[http://psi.norge.no/los/ord/sykefravaer]"> +
-<skos:broader rdf:resource="http://psi.norge.no/los/tema/arbeidsliv%22/[http://psi.norge.no/los/tema/arbeidsliv"/]> +
-<skos:hiddenLabel xml:lang="nn">Sjukmelding</skos:hiddenLabel> +
-<skos:inScheme rdf:resource="http://psi.norge.no/los/ontologi/ord%22/[http://psi.norge.no/los/ontologi/ord"/]> +
-<skos:prefLabel xml:lang="nn">Sjukefråver</skos:prefLabel> +
-<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept%22/[http://www.w3.org/2004/02/skos/core#Concept"/]> +
-<skos:related rdf:resource="http://psi.norge.no/los/ord/sykepenger%22/[http://psi.norge.no/los/ord/sykepenger"/]> +
-<skos:prefLabel xml:lang="nb">Sykefravær</skos:prefLabel> +
-<skos:definition xml:lang="nn">Fråver frå arbeid i samband med sjukdom eller skade.</skos:definition> +
-<skos:related rdf:resource="http://psi.norge.no/los/ord/omsorgspenger%22/[http://psi.norge.no/los/ord/omsorgspenger"/]> +
-<skos:hiddenLabel xml:lang="nb">Sykmelding</skos:hiddenLabel> +
-<skos:hiddenLabel xml:lang="nb">Egenmelding</skos:hiddenLabel> +
-<skos:hiddenLabel xml:lang="nn">Sjukemelding</skos:hiddenLabel> +
-<skos:prefLabel xml:lang="en">Sick leave</skos:prefLabel> +
-<skos:hiddenLabel xml:lang="nn">Eigenmelding</skos:hiddenLabel> +
-<skos:hiddenLabel xml:lang="nb">Sykemelding</skos:hiddenLabel> +
-</rdf:Description> +
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+  <rdf:Description rdf:about="http://psi.norge.no/los/ord/sykefravaer">
+    <skos:broader rdf:resource="http://psi.norge.no/los/tema/arbeidsliv"/>
+    <skos:hiddenLabel xml:lang="nn">Sjukmelding</skos:hiddenLabel>
+    <skos:inScheme rdf:resource="http://psi.norge.no/los/ontologi/ord"/>
+    <skos:prefLabel xml:lang="nn">Sjukefråver</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:related rdf:resource="http://psi.norge.no/los/ord/sykepenger"/>
+    <skos:prefLabel xml:lang="nb">Sykefravær</skos:prefLabel>
+    <skos:definition xml:lang="nn">Fråver frå arbeid i samband med sjukdom eller skade.</skos:definition>
+    <skos:related rdf:resource="http://psi.norge.no/los/ord/omsorgspenger"/>
+    <skos:hiddenLabel xml:lang="nb">Sykmelding</skos:hiddenLabel>
+    <skos:hiddenLabel xml:lang="nb">Egenmelding</skos:hiddenLabel>
+    <skos:hiddenLabel xml:lang="nn">Sjukemelding</skos:hiddenLabel>
+    <skos:prefLabel xml:lang="en">Sick leave</skos:prefLabel>
+    <skos:hiddenLabel xml:lang="nn">Eigenmelding</skos:hiddenLabel>
+    <skos:hiddenLabel xml:lang="nb">Sykemelding</skos:hiddenLabel>
+  </rdf:Description> +
 </rdf:RDF>
 ----
 
@@ -168,7 +172,9 @@ På Github finner du termene i Los to ulike mapper: “ord” og “tema”. Tem
 
 
 Syntaksen på Github er uttrykt i programmeringsspråket YAML, og er relativt enkel å lære. La oss først se på hovedkategorien “arbeid”:
-....
+
+[source,yml]
+----
 !Concept
 label:
   preferred:
@@ -180,7 +186,7 @@ scheme:
   - ontologi/tema
   topOf:
   - struktur
-....
+----
 
 Her er det altså angitt anbefalt term (skos:prefLabel) på tre språk, at termen tilhører skjemaet */ontologi/tema (skos:inScheme) og at termen er øverste nivå i ressursen “struktur” (skos:topConceoptOf). Språk angis for alle tekststrenger ved hjelp av suffikset ”@”+ språkkode i tråd med ISO 639-1.
 
@@ -193,7 +199,8 @@ Ettersom underkategoriene “arbeidsliv”, “arbeidssøking” og “rekrutter
 
 Emneordene inneholder “skjulte nøkkelord” (skos:hiddenLabel), foretrukket term, definisjon og relasjoner oppover (hvilke underkategori(er) emneordet tilhører). Emneordet “arbeidsavtale” ser for eksempel slik ut i YAML:
 
-....
+[source,yml]
+----
 !Concept
 label:
   hidden:
@@ -216,15 +223,16 @@ documentation:
 relation:
   broader:
   - tema/arbeidsliv
+----
 
-....
 == Ordforklaringer:
 
 
+[cols="1,4"]
 |===
-|Emneord: |Et emneord er et uttrykk for innholdet i ressursen som skal beskrives.
-|Hjelpeord|Tilleggsord (synonymer, språkvarianter osv.) som skal hjelpe brukerne med å finne det rette emneordet.
-|Synonym|Gresk ord som betyr ”sammebetydning”. Det er altså ord som betyr det samme som emneordet.
-|SKOS|Simple Knowledge Organization System
+h|Emneord|Et emneord er et uttrykk for innholdet i ressursen som skal beskrives.
+h|Hjelpeord|Tilleggsord (synonymer, språkvarianter osv.) som skal hjelpe brukerne med å finne det rette emneordet.
+h|Synonym|Gresk ord som betyr ”sammebetydning”. Det er altså ord som betyr det samme som emneordet.
+h|SKOS|Simple Knowledge Organization System
 ||
 |===
