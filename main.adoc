@@ -19,4 +19,9 @@ include::utils/download.adoc[]
 
 :leveloffset: +1
 
+<<<<<<< HEAD
 include::los.adoc[]
+=======
+
+include::utils/stats.adoc[]
+>>>>>>> origin/master
