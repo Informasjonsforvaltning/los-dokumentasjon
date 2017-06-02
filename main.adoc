@@ -2,7 +2,7 @@ include::utils/translation.adoc[]
 
 = Los
 Direktoratet for forvaltning og IKT
-v0.1
+
 :description:
 :doctype: book
 :icons: font
@@ -19,9 +19,6 @@ include::utils/download.adoc[]
 
 :leveloffset: +1
 
-<<<<<<< HEAD
 include::los.adoc[]
-=======
 
 include::utils/stats.adoc[]
->>>>>>> origin/master
