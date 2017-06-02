@@ -10,10 +10,13 @@ v0.1
 :toclevels: 3
 :sectanchors:
 :title-logo-image: utils/logo.jpg
-:sectnums:
+
+//:sectnums:
 
 {description}
 
 include::utils/download.adoc[]
 
 :leveloffset: +1
+
+include::los.adoc[]
