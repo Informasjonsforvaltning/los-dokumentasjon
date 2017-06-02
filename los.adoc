@@ -19,7 +19,8 @@ Merk at oversettelser til andre målformer og språk ikke er komplett, og at det
 == Struktur
 Hver hovedkategori har et undertema knyttet til seg. På nivå 3 finner vi emneordene som har en eller flere hjelpeord knyttet til seg. Et emneord kan være knyttet til flere tema:
 
-<Sett inn bilde1>
+
+image::los.png[]
 
 Det øverste nivået av strukturen har kategorier som ”Arbeid”, “Barn og familie”, ”Bolig og eiendom”, osv. Det er med andre ord en vanlig tematisk inndeling av offentlige ressurser og tjenester. Under det første nivået er det et nivå som spesifiserer hvilke type ressurs det er snakk om.
 
