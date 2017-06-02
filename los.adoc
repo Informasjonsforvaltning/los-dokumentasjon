@@ -9,6 +9,9 @@ Los kan benyttes til en rekke formål, for eksempel:
  * kategorisering av offentlige ressurser
  * menystruktur for offentlige tjenester
 
+NOTE: Gå til http://psi.norge.no/los/struktur.html[HTML-visning av begrepene i Los]
+eller http://psi.norge.no/los/all.rdf[last ned Los her] (RDF/XML)
+
 == Bruksområder
 Det er flere måter å bruke Los-vokabularet på. Den mest nærliggende er å referere til URIer for begrepene når en skal klassifisere en ressurs i et lenkede data-miljø. http://doc.difi.no/dcat-ap-no[Standard for beskrivelse av datasett og dataktaloger] er et eksempel på bruksområder der Los skal brukes primært som referanse til tema ved hjelp av URIer.
 
@@ -225,14 +228,8 @@ relation:
   - tema/arbeidsliv
 ----
 
-== Ordforklaringer:
-
-
-[cols="1,4"]
-|===
-h|Emneord|Et emneord er et uttrykk for innholdet i ressursen som skal beskrives.
-h|Hjelpeord|Tilleggsord (synonymer, språkvarianter osv.) som skal hjelpe brukerne med å finne det rette emneordet.
-h|Synonym|Gresk ord som betyr ”sammebetydning”. Det er altså ord som betyr det samme som emneordet.
-h|SKOS|Simple Knowledge Organization System
-||
-|===
+== Lenker
+* http://psi.norge.no/los/struktur.html[HTML-visning av begrepene i Los]
+* http://psi.norge.no/los/all.rdf[Last ned Los] (RDF/XML)
+* https://www.w3.org/TR/2009/REC-skos-reference-20090818/[SKOS - Simple Knowledge Organization System]
+* http://yaml.org/[YAML]
