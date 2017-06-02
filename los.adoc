@@ -231,5 +231,6 @@ relation:
 == Lenker
 * http://psi.norge.no/los/struktur.html[HTML-visning av begrepene i Los]
 * http://psi.norge.no/los/all.rdf[Last ned Los] (RDF/XML)
+* https://github.com/difi/los[Los på Github]
 * https://www.w3.org/TR/2009/REC-skos-reference-20090818/[SKOS - Simple Knowledge Organization System]
 * http://yaml.org/[YAML]
