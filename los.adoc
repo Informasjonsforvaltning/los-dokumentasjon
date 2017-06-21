@@ -95,7 +95,7 @@ Forslag til utvidelser av vokabularet vil bli vurdert ut fra følgende kriterier
  * Begreper i Los skal være tjenesteorienterte - ikke orientert rundt for eksempel livssituasjon eller funksjonsområde
  * Begreper i Los skal fungere best mulig som felles terminologi - ikke fag-, eller domenespesifikke begreper
 
-=== Varighets og versjons-policy
+== Varighets og versjons-policy
 URIene til begrepene i Los er stabile og globalt unike. Fra og med 2016 gir URIene i tillegg svar i RDF-format. Denne tjenesten har kontordrift, og Difi gir ingen garantier for oppetid.
 
 Versjonering skjer etter følgende prinsipper:
