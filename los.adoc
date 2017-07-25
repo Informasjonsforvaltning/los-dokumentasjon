@@ -1,4 +1,4 @@
-= Los
+== Om Los
 
 Los er en felles terminologi for å beskrive offentlige tjenester og ressurser. Vokabularet er brukerorientert, og kan brukes til å kategorisere for eksempel tjenester, informasjon, datasett og andre ressurser som offentlige virksomheter forvalter. Formålet med Los er å gjøre offentlige ressurser enklere å finne.
 

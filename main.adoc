@@ -17,7 +17,7 @@ Direktoratet for forvaltning og IKT
 
 include::utils/download.adoc[]
 
-:leveloffset: +1
+//:leveloffset: +1
 
 include::los.adoc[]
 
