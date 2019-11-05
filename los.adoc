@@ -87,6 +87,10 @@ Emneordet har følgende anbefalte språkvarianter:
 
 Språkkode er angitt i tråd med ISO 639-1 for alle emneord, hjelpeord og definisjoner (en, nb, nn)
 
+== Hjelpeord
+
+Los inneholder over 1600  hjelpeord i form av synonymer, utgåtte termer osv. Disse er knyttet til emneordene som _skos:hiddenLabel_ og har ikke egne URIer
+
 == Forvaltning
 Los blir utgitt og forvaltet av Difi. En egen arbeidsgruppe vurderer behovet for ny versjon basert på tilbakemeldinger hver 3. måned. Revisjonsyklysen skal vurderes på nytt i januar 2021, men minimum en gang i året. Bidrag i form av forslag til oversettelser av termer og definisjoner blir vurdert fortløpende. Utvidelser og tillegg blir ikke varslet utover oppdatering av endringsloggen.  Alle endringer vil derfor være basert på innmeldte behov eller løsningsforslag.
 
@@ -198,9 +202,6 @@ Videre er emneordet “sykefravær” uttrykt slik i SKOS (denne gangen et eksem
 </rdf:RDF>
 ----
 
-== Hjelpeordene i Los
-
-Los inneholder over 1600  hjelpeord i form av synonymer, utgåtte termer osv. Disse er knyttet til emneordene som _skos:hiddenLabel_ og har ikke egne URIer
 
 == Bidra til Los
 Innmelding av behov og løsningsforslag skjer primært https://github.com/difi/los/[via prosjektets Github-side] (krever Github-bruker), men kan også sendes på epost til mailto:informasjonsforvaltning@difi.no[informasjonsforvaltning@difi.no].
