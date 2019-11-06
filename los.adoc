@@ -15,24 +15,20 @@ NOTE: Versjon 3.0  av Los er ute på høring. Gå til http://psi.norge.no/los/3/
 eller http://psi.norge.no/los/3/all.rdf[last ned Los 3.0 RC her] (RDF/XML). Mer informasjon om høringen finner du på https://los.difi.no[Los.difi.no]
 
 == Bruksområder
-Det er flere måter å bruke Los-vokabularet på. Den mest nærliggende er å referere til URIer for begrepene når en skal klassifisere en ressurs i et lenkede data-miljø. http://doc.difi.no/dcat-ap-no[Standard for beskrivelse av datasett og dataktaloger] er et eksempel på bruksområder der Los skal brukes primært som referanse til tema ved hjelp av URIer.
+Det er flere måter å bruke Los-vokabularet på. Den mest nærliggende er å referere til URIer for begrepene når en skal klassifisere en ressurs i et lenkede data-miljø. http://doc.difi.no/dcat-ap-no[Standard for beskrivelse av datasett og datakataloger] er et eksempel på bruksområder der Los skal brukes primært som referanse til tema ved hjelp av URIer.
 
 Los kan også lastes ned lokalt og brukes som struktur for for eksempel offentlige nettsider. Dersom informasjonen som ligger i RDF/XML-filen blir tatt med i kildekoden for sidene, vil dette bidra til økt søkbarhet ettersom Los tilbyr beskrivelse på flere språk og målformer samt hjelpeord.
 
 Merk at oversettelser til andre målformer og språk ikke er komplett, og at det er mulig å bidra til flere oversettelser direkte i vokabularets kildekode på Github.
 
 == Struktur
-Hvert hovedtema (nivå 1)  har flere undertema (nivå 2) knyttet til seg. På nivå 3 finner vi emneordene som har en eller flere hjelpeord knyttet til seg. Et emneord kan være knyttet til flere tema:
+De tre nivåene i Los er definert ved hjelp av hierarkiske relasjoner (skos:narrower og skos:broader). Hvert undertema (nivå 2) hører til kun ett hovedtema (nivå 1). Emneordene (nivå 3) kan ha relasjoner til flere undertemaer og kan dermed oppstå i flere kontekster (med samme identifikator). I tillegg til hierarkiske relasjoner forekommer det også noen assosiative relasjoner mellom emneord (skos:related).
 
+image::images/los-struktur3.png[align=center]
 
-image::images/los-struktur.png[align=center]
-
-
-Det øverste nivået i temastrukturen har tema som ”Arbeid”, “Familie og barn”, Bygg og eiendom”, osv. Under det første nivået er det et nivå som spesifiserer hvilke type ressurs det er snakk om.
+Det øverste nivået i temastrukturen har termer som ”Arbeid”, “Familie og barn”, "Bygg og eiendom”, osv.
 
 === Hovedtema
-Under hovedtemaet ”Arbeid” finnes for eksempel undertemaene ”Arbeidsliv”,”Arbeidssøking”, ”Inntekt” og ”Permisjonsordninger”.
-
 Det øverste nivået av navigasjonsstrukturen angir hovedtemaene. Følgende 15 hovedtemaer er definert i Los 3.0:
 
 * Arbeid
@@ -54,7 +50,7 @@ Det øverste nivået av navigasjonsstrukturen angir hovedtemaene. Følgende 15 h
 === Undertema
 Undertemaene i Los er spesifiseringer av hovedtemaene. Et undertema er aldri knyttet til mer enn en ett hovedtema.
 
-For eksempel har hovedtemaet Bygg og eiendom følgende undertemaer:
+For eksempel har hovedtemaet "Bygg og eiendom" følgende undertemaer:
 
 * Bygging
 * Eiendom
@@ -66,10 +62,11 @@ For eksempel har hovedtemaet Bygg og eiendom følgende undertemaer:
 
 === Emneord
 
-Los inneholder over 430 emneord som er knyttet til ett eller flere undertemaer. Emneordene er har (med noen unntak - work in progress) beskrivelser på minst ett språk. I tillegg til å være knyttet til ett (eller flere) undertema (og implisitt også ett eller flere hovedtema), kan emneordene ha hjelpeord (skos:hiddenLabel) knyttet til seg.
+Los inneholder over 430 emneord som er knyttet til ett eller flere undertemaer. Emneordene har (med noen unntak - work in progress) beskrivelser på minst ett språk. I tillegg til å være knyttet til ett (eller flere) undertema (og implisitt også ett eller flere hovedtema), kan emneordene ha hjelpeord (skos:hiddenLabel) knyttet til seg.
 
-For eksempel har emneordet "Yrkesskadedekning" følgende beskrivelse på bokmål: +
-Yrkesskade er en skade som skjer ved en ulykke i arbeidstiden. Yrkesskadedekningen gir særfordeler utover folketrygdens ordinære stønadssystem.
+For eksempel har emneordet "Yrkesskadedekning" følgende beskrivelse på bokmål:
+
+ Yrkesskade er en skade som skjer ved en ulykke i arbeidstiden. Yrkesskadedekningen gir særfordeler utover folketrygdens ordinære stønadssystem.
 
 Emneordet har følgende anbefalte språkvarianter:
 
@@ -89,10 +86,10 @@ Språkkode er angitt i tråd med ISO 639-1 for alle emneord, hjelpeord og defini
 
 == Hjelpeord
 
-Los inneholder over 1600  hjelpeord i form av synonymer, utgåtte termer osv. Disse er knyttet til emneordene som _skos:hiddenLabel_ og har ikke egne URIer
+Los inneholder over 1600  hjelpeord i form av synonymer, utgåtte termer og spesifiseringer. Disse er knyttet til emneordene som _skos:hiddenLabel_ og har ikke egne URIer
 
 == Forvaltning
-Los blir utgitt og forvaltet av Difi. En egen arbeidsgruppe vurderer behovet for ny versjon basert på tilbakemeldinger hver 3. måned. Revisjonsyklysen skal vurderes på nytt i januar 2021, men minimum en gang i året. Bidrag i form av forslag til oversettelser av termer og definisjoner blir vurdert fortløpende. Utvidelser og tillegg blir ikke varslet utover oppdatering av endringsloggen.  Alle endringer vil derfor være basert på innmeldte behov eller løsningsforslag.
+Los blir utgitt og forvaltet av Difi. En egen arbeidsgruppe vurderer behovet for ny versjon basert på tilbakemeldinger hver 3. måned. Revisjonsyklysen skal vurderes på nytt i januar 2021, men minimum en gang i året. Bidrag i form av forslag til oversettelser av termer og definisjoner blir vurdert fortløpende. Utvidelser og tillegg blir ikke varslet utover oppdatering av endringsloggen.  Alle endringer vil derfor være basert på tilbakemeldinger og innmeldte behov.
 
 Difi benytter Github til versjonering og forvaltning, og forslag til endringer kan forslås (som “issue”) https://github.com/difi/los/issues/new?assignees=&labels=H%C3%B8ringssvar&template=h-ringssvar-og-tilbakemeldinger.md&title=[direkte på Github], eller via epost til  mailto:informasjonsforvaltning@difi.no[informasjonsforvaltning@difi.no].
 
@@ -107,24 +104,24 @@ Forslag til utvidelser av vokabularet vil bli vurdert ut fra følgende kriterier
 
 Versjonering skjer i samsvar med Semver-standarder etter følgende prinsipper:
 
- * Endringer i form av endrede beskrivelser av emneord, og oversettelser til flere språk og øvrige endringer som ikke påvirker struktur eller URI-er  kategoriseres som "patch" (3.0.*X*)
+ * Endringer i form av endrede beskrivelser av emneord, og oversettelser til flere språk og øvrige endringer som ikke påvirker struktur eller identifikatorer kategoriseres som "patch" (3.0.*X*)
  * Endringer i form av nye emneord og/eller nye tema kategoriseres som "minor" (3.*X*.0)
- * Endringer i form av fjerning av innhold representert med URi-er (tema og emneord) kategoriseres som "major" (*X*.0.0)
+ * Endringer i form av fjerning av innhold representert med URI-er (tema og emneord) kategoriseres som "major" (*X*.0.0)
 
 Selve tjenesten (URI-ene som gir svar i rdf/xml) har kontordrift, og Difi gir ingen garantier for oppetid.
 
 == Vilkår for bruk
 
-Los kan brukes fritt av alle uansett formål. Los  er gjort tilgjengelig under  lisensen https://creativecommons.org/publicdomain/zero/1.0/deed.no[Creative Commons Zero (CC0 1.0)]. Dette innebærer at Difi sier fra seg alle de opphavsrettigheter og nærstående rettigheter til verket og at du kan kopiere, endre, distribuere Los, selv for kommersielle formål, uten å spørre om tillatelse.
+Los kan brukes fritt av alle uansett formål. Los  er gjort tilgjengelig under  lisensen https://creativecommons.org/publicdomain/zero/1.0/deed.no[Creative Commons Zero (CC0 1.0)]. Dette innebærer at Difi sier fra seg alle de opphavsrettigheter og nærstående rettigheter til verket og at du kan kopiere, endre, distribuere Los (selv for kommersielle formål) uten å spørre om tillatelse. Nye produkter basert på Los bør ha en navngivning som sjør det lett for brukerne å skille Los fra avledede produkter.
 
 
 == Retningslinjer for videreutvikling av Los
 
 === Brukeren i sentrum
-Hovedregelen for valg av begreper og struktur er _brukeren i sentrum_, forstått som innbyggernes behov for å finne fram til offentlige tjenester og informasjon på tvers av virksomheter og forvaltningsnivåer. Termene i Los skal primært beskrive tjenester og informasjon om forbud, påbud, tilbud, rettigheter og plikter rettet mot innbyggerne.
+Hovedregelen for valg av begreper og struktur er _brukeren i sentrum_, forstått som innbyggernes behov for å finne fram til offentlige tjenester og informasjon på tvers av virksomheter og forvaltningsnivåer. Termene i Los skal primært beskrive tjenester og informasjon om forbud, påbud, tilbud, rettigheter og plikter rettet mot innbyggerne. I fremtidige versjoner skal det vurderes å utvide omfanget til øvrige forvaltningsaktiviteter og tjenester levert av næringsliv og sivilsamfunn.
 
 === Bruk allmenne tema
-Termene på nivå 1 og 2 (tema og undertema)  skal være så allment forståelig som mulig og bør ikke si noe om organiseringen av tjenesten. Hovedfokus er offentlige tjenester, men det skal også tas høyde for tjenester levert av privat næringsliv og frivillige organisasjoner.
+Termene på nivå 1 og 2 (tema og undertema)  skal være så allment forståelig som mulig og bør ikke si noe om organiseringen av tjenesten. Hovedfokus er temainndeling av offentlige tjenester.
 
 === Bruk spesifikke emneord
 Selv om emneord kan knyttes til  flere undertema, så er hovedregelen at du bør være spesifikk når nye emneord legges til. Et emneord som _Tilsyn_ er relevant for en hel rekke tema (for eksempel _Barnehage_, _Skole_, _Landbruk_ og _Arbeidsliv_. Dersom emneordet har relevans for flere enn to tema, er det en indikasjon på at du bør være mer spesifikk (for eksempel ved å velge termer som _Tilsyn og godkjenning av barnehager_). Bruk skjønn og tenk på brukerne.
