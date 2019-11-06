@@ -25,7 +25,7 @@ Merk at oversettelser til andre målformer og språk ikke er komplett, og at det
 Hvert hovedtema (nivå 1)  har flere undertema (nivå 2) knyttet til seg. På nivå 3 finner vi emneordene som har en eller flere hjelpeord knyttet til seg. Et emneord kan være knyttet til flere tema:
 
 
-image::images/los.png[align=center]
+image::images/los-struktur.png[align=center]
 
 
 Det øverste nivået i temastrukturen har tema som ”Arbeid”, “Familie og barn”, Bygg og eiendom”, osv. Under det første nivået er det et nivå som spesifiserer hvilke type ressurs det er snakk om.
