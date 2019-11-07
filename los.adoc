@@ -102,17 +102,17 @@ Forslag til utvidelser av vokabularet vil bli vurdert ut fra følgende kriterier
 
 == Varighets og versjons-policy
 
-Versjonering skjer i samsvar med Semver-standarder etter følgende prinsipper:
+Versjonering skjer i samsvar med https://semver.org/[Semver-standarder] etter følgende prinsipper:
 
- * Endringer i form av endrede beskrivelser av emneord, og oversettelser til flere språk og øvrige endringer som ikke påvirker struktur eller identifikatorer kategoriseres som "patch" (3.0.*X*)
- * Endringer i form av nye emneord og/eller nye tema kategoriseres som "minor" (3.*X*.0)
- * Endringer i form av fjerning av innhold representert med URI-er (tema og emneord) kategoriseres som "major" (*X*.0.0)
+ * Oppdaterte beskrivelser av emneord, og oversettelser til flere språk, mapping til andre vokabular og øvrige endringer som ikke påvirker struktur eller identifikatorer, kategoriseres som "PATCH" (3.0.*X*). Endringene av denne typen blir dokumentert i endringsloggen, men ikke behandlet av arbeidsgruppen.
+ * Endringer i form av nye emneord og/eller nye tema kategoriseres som "MINOR" (3.*X*.0). Utgåtte termer og innhold som fjernes vil bli varslet i endringsloggen og i selve rdf-koden (som skos:note) i minimum 3 måndeder før innholdet blir tatt bort.
+ * Endringer i API-et som ikke er bakoverkompatible og større strukturelle endringer som medfører at et større antal URI-er ikke lenger gir svar, kategoriseres som "MAJOR" (*X*.0.0)
 
 Selve tjenesten (URI-ene som gir svar i rdf/xml) har kontordrift, og Difi gir ingen garantier for oppetid.
 
 == Vilkår for bruk
 
-Los kan brukes fritt av alle uansett formål. Los  er gjort tilgjengelig under  lisensen https://creativecommons.org/publicdomain/zero/1.0/deed.no[Creative Commons Zero (CC0 1.0)]. Dette innebærer at Difi sier fra seg alle de opphavsrettigheter og nærstående rettigheter til verket og at du kan kopiere, endre, distribuere Los (selv for kommersielle formål) uten å spørre om tillatelse. Nye produkter basert på Los bør ha en navngivning som sjør det lett for brukerne å skille Los fra avledede produkter.
+Los kan brukes fritt av alle uansett formål. Los  er gjort tilgjengelig under  lisensen https://creativecommons.org/publicdomain/zero/1.0/deed.no[Creative Commons Zero (CC0 1.0)]. Dette innebærer at Difi sier fra seg alle de opphavsrettigheter og nærstående rettigheter til verket og at alle kan kopiere, endre, distribuere Los uten å spørre om tillatelse. Vi ber om at nye produkter basert på Los får en navngivning som gjør det lett for brukerne å skille Los fra avledede produkter.
 
 
 == Retningslinjer for videreutvikling av Los
@@ -121,21 +121,21 @@ Los kan brukes fritt av alle uansett formål. Los  er gjort tilgjengelig under  
 Hovedregelen for valg av begreper og struktur er _brukeren i sentrum_, forstått som innbyggernes behov for å finne fram til offentlige tjenester og informasjon på tvers av virksomheter og forvaltningsnivåer. Termene i Los skal primært beskrive tjenester og informasjon om forbud, påbud, tilbud, rettigheter og plikter rettet mot innbyggerne. I fremtidige versjoner skal det vurderes å utvide omfanget til øvrige forvaltningsaktiviteter og tjenester levert av næringsliv og sivilsamfunn.
 
 === Bruk allmenne tema
-Termene på nivå 1 og 2 (tema og undertema)  skal være så allment forståelig som mulig og bør ikke si noe om organiseringen av tjenesten. Hovedfokus er temainndeling av offentlige tjenester.
+Termene på nivå 1 og 2 (tema og undertema)  skal være så allment forståelig som mulig, og bør ikke si noe om organiseringen av tjenesten. Hovedfokus er temainndeling av offentlige tjenester.
 
 === Bruk spesifikke emneord
 Selv om emneord kan knyttes til  flere undertema, så er hovedregelen at du bør være spesifikk når nye emneord legges til. Et emneord som _Tilsyn_ er relevant for en hel rekke tema (for eksempel _Barnehage_, _Skole_, _Landbruk_ og _Arbeidsliv_. Dersom emneordet har relevans for flere enn to tema, er det en indikasjon på at du bør være mer spesifikk (for eksempel ved å velge termer som _Tilsyn og godkjenning av barnehager_). Bruk skjønn og tenk på brukerne.
 
 === Berik emneordene med hjelpeord
-Los bruker hjelpeord (skos:hiddenLabels) for å hjelpe brukeren til rett tjeneste. Hjelpeord kan være skjulte for brukerne, men samtidig bli brukt av søkemotorer når brukerne søker etter ord som ikke er en del av det synlige vokabularet. Hjelpeord kan være synonymer, nært beslektede termer, verbformer av substantiver, utgåtte ord eller ord som er brukt i dagligtale. Hjelpeord kan også være spesifiseringer av emneordet. For eksempel er følgende bokmåls-hjelpeord knyttet til emneordet "Ruteinformasjon":
+Los bruker hjelpeord (skos:hiddenLabels) for å hjelpe brukeren til rett tjeneste. Hjelpeord kan være skjulte for brukerne, men samtidig bli brukt av søkemotorer når brukerne søker etter ord som ikke er en del av det synlige vokabularet. Hjelpeord kan være mer spesifikke termer synonymer, nært beslektede termer, verbformer av substantiver, utgåtte ord eller ord som er brukt i dagligtale. Hjelpeord kan også være spesifiseringer av emneordet. For eksempel er følgende bokmåls-hjelpeord knyttet til emneordet "Ruteinformasjon":
 
 _Bussrute, Busstider, Båtrute, Fergerute, Fergetider, Ferjerute, Ferjetider, Forsinkelser, Kanselleringer, Køreplaner, Ruteopplysning, Rutetabell, Rutetider, Rutetider, Sporveisrute, T-banerute, Togrute, Togtider, Trikkerute_
 
 === Husk samsvar mellom emneord og beskrivelse
-Et emneord kan potensielt brukes i flere kontekster. Du må derfor se til at det er samsvar mellom selve termen og den tilhørende beskrivelsen. Eksempel: *Tilsyn* kan ikke defineres som *Kommunen fører tilsyn med private og kommunale barnehager* ettersom denne beskrivelsen ekskluderer andre typer tilsyn. Her må enten selve ordet gjøre med spesifikt (*Tilsyn og godkjenning av barnehager*) eller beskrivelsen må gjøres mer allmenn.
+Et emneord kan potensielt brukes i flere kontekster. Du må derfor se til at det er samsvar mellom selve termen og den tilhørende beskrivelsen. Eksempel: _Tilsyn_ kan ikke defineres som _"Kommunen fører tilsyn med private og kommunale barnehager"_ ettersom denne beskrivelsen ekskluderer andre typer tilsyn. Her må enten selve ordet gjøre med spesifikt (_Tilsyn og godkjenning av barnehager_) eller beskrivelsen må gjøres mer allmenn.
 
 === Bruk substantivformer
-Ved utforming av nye tema, undertema og emneord skal du bruke ubestemt form av substantiv. Hovedregelen er entall, men flertallsformen brukes der det er naturlig som når et tema inneholder ulike typer tjenester.
+Ved utforming av nye tema, undertema og emneord skal du bruke ubestemt form av substantiv. Hovedregelen er entall, men flertallsformen brukes der det er naturlig (som når et tema inneholder ulike typer tjenester).
 
 === Vær flerspråklig
 Los er på bokmål, nynorsk og engelsk. Nye tema, undertema, emneord, skjulte søkeord og beskrivelser skal legges til i alle tre språkformer (med språkkodene “nn”, “nb” og “en”). Forslag til nye tema, undertema og emneord bør foreligge på alle tre språkformer slik at de er raske å implementere. Beskrivelsene må foreligge på minst en norsk språkform.
@@ -147,7 +147,7 @@ Alle kan foreslå endringer og melde inn behov. Primært skal dette skje via “
 == Los uttrykt i SKOS
 Los er publisert i RDF/XML som et SKOS-vokabular. SKOS er en W3C-anbefaling utviklet for å representere thesaurier, klassifikasjonssystemer, taksonomier og kontrollerte vokabular. SKOS er del av en rekke standarder for den semantiske webben som bygger på RDF og RDFS. Hovedformålet med SKOS er å tilby en enkel publisering og bruk av vokabular som lenkede data.
 
-Hver term har en stabil og globalt unik http-URI. URIene er bygd opp med følgende struktur: http://psi.norge.no/los/tema/{term}. URIen for termen “arbeid” blir dermed https://psi.norge.no/los/tema/arbeid[https://psi.norge.no/los/tema/arbeid] og denne gir da svar i rdf-format. En html-visning av termen oppnås ved å legge til .html som suffiks. Lenke til html-visning for samme term blir https://psi.norge.no/los/tema/arbeid.html[https://psi.norge.no/los/tema/arbeid.html]
+Hver term har en stabil og globalt unik http-URI. URIene er bygd opp med følgende struktur: https://psi.norge.no/los/tema/{term}. URIen for termen “arbeid” blir dermed https://psi.norge.no/los/tema/arbeid[https://psi.norge.no/los/tema/arbeid] og denne gir da svar i rdf-format. En html-visning av termen oppnås ved å legge til .html som suffiks. Lenke til html-representasjon av samme term blir dermed https://psi.norge.no/los/tema/arbeid.html[https://psi.norge.no/los/tema/arbeid.html]
 
 Omskrivningsreglene i selve URIene for særnorske tegn og mellomrom er: +
 æ -> a +
@@ -156,7 +156,7 @@ Omskrivningsreglene i selve URIene for særnorske tegn og mellomrom er: +
 (mellomrom) -> - +
 Eksempel:  https://psi.norge.no/los/tema/natur-og-miljo[https://psi.norge.no/los/tema/natur-og-miljo]
 
-I Los er både hovedtemaer, undertemaer og emneord  _SKOS concept_. Disse står i relasjoner til hverandre enten i et hierarki eller ved at emneordene har relasjoner til andre emneord (skos:related).
+I Los er både hovedtemaer, undertemaer og emneord  _SKOS concept_. Disse står i relasjoner til hverandre i et hierarki. Nivå 1 og 2 er et rent hierarki, mens nivå 3 kan være relateres til flere termer på nivå 2. I tillegg har noen emneord assosiative relasjoner seg imellom (skos:related).
 
 Eksempel på undertemet “arbeidsliv” uttrykt i SKOS:
 
@@ -169,7 +169,7 @@ Eksempel på undertemet “arbeidsliv” uttrykt i SKOS:
 |Emneordets foretrukne skrivemåte på bokmål|`<skos:prefLabel xml:lang="nb">Arbeidsliv</skos:prefLabel>`
 |Emneordets foretrukne skrivemåte på engelsk|`<skos:prefLabel xml:lang="en">Employment</skos:prefLabel>`
 |Referanse til relatert begrep med mer avgrenset betydning (altså et emneord):|`<skos:narrower rdf:resource="https://psi.norge.no/los/ord/sykefravar/>`
-|Referanse til begrep med bredere betydning (altså underkategoriens hovedkategori eller emneordets underkategori)|`<skos:broader rdf:resource="https://psi.norge.no/los/tema/arbeid/>`
+|Referanse til begrep med bredere betydning (altså undertemaets hovedtema eller emneordets undertema)|`<skos:broader rdf:resource="https://psi.norge.no/los/tema/arbeid/>`
 |===
 
 
