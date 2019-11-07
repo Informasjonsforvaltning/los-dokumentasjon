@@ -1,0 +1,5 @@
+# Dokumentasjon av Los
+
+Dokumentasjon av gjeldende versjon av Los (3.0). Dokumentet blir publisert her: https://doc.difi.no/los/
+
+For mer infomasjon om Los se https://los.difi.no
