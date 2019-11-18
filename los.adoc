@@ -208,10 +208,11 @@ Innmelding av behov og løsningsforslag skjer primært https://github.com/difi/l
 === Versjon 3.0 RC:
 
 * http://psi.norge.no/los/3/struktur.html[Temastruktur]
-* http://psi.norge.no/los/3/view/table-nn[Listevisning - nynorsk]
-* http://psi.norge.no/los/3/view/table-nb[Listevisning - bokmål]
-* http://psi.norge.no/los/3/view/table-en[Listevisning - engelsk]
-* http://psi.norge.no/los/3/all.rdf[Last ned (RDF/XML)]
+* Listevisning hele Los:  http://psi.norge.no/los/3/view/table-nn[nynorsk ]| http://psi.norge.no/los/3/view/table-nb[bokmål ]| http://psi.norge.no/los/3/view/table-en[engelsk]|
+* Listevisning “Kommune-los”: http://psi.norge.no/los/3/view/table-nn/samling/kommune-los[nynorsk] | http://psi.norge.no/los/3/view/table-nb/samling/kommune-los[bokmål] | http://psi.norge.no/los/3/view/table-en/samling/kommune-los[engelsk] |
+* http://psi.norge.no/los/3/all.rdf[Last ned komplett datasett (RDF/XML)]
+* https://github.com/difi/los/issues/new?assignees=&labels=H%C3%B8ringssvar&template=h-ringssvar-og-tilbakemeldinger.md&title=[Gi tilbakemeldinger på Github] (krever bruker og innlogging)
+* https://github.com/difi/los/issues[Oversikt over tilbakemeldinger og innmeldte behov]
 
 === Versjon 2.0 (utfases)
 * http://psi.norge.no/los/struktur.html[HTML-visning av Los 2.0 ]
