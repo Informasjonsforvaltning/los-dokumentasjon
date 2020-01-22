@@ -89,9 +89,9 @@ Språkkode er angitt i tråd med ISO 639-1 for alle emneord, hjelpeord og defini
 Los inneholder over 1600  hjelpeord i form av synonymer, utgåtte termer og spesifiseringer. Disse er knyttet til emneordene som _skos:hiddenLabel_ og har ikke egne URIer
 
 == Forvaltning
-Los blir utgitt og forvaltet av Difi. En egen arbeidsgruppe vurderer behovet for ny versjon basert på tilbakemeldinger hver 3. måned. Revisjonsyklysen skal vurderes på nytt i januar 2021, men minimum en gang i året. Bidrag i form av forslag til oversettelser av termer og definisjoner blir vurdert fortløpende. Utvidelser og tillegg blir ikke varslet utover oppdatering av endringsloggen.  Alle endringer vil derfor være basert på tilbakemeldinger og innmeldte behov.
+Los blir utgitt og forvaltet av Digitaliseringsdirektoratet. En egen arbeidsgruppe vurderer behovet for ny versjon basert på tilbakemeldinger hver 3. måned. Revisjonsyklysen skal vurderes på nytt i januar 2021, men minimum en gang i året. Bidrag i form av forslag til oversettelser av termer og definisjoner blir vurdert fortløpende. Utvidelser og tillegg blir ikke varslet utover oppdatering av endringsloggen.  Alle endringer vil derfor være basert på tilbakemeldinger og innmeldte behov.
 
-Difi benytter Github til versjonering og forvaltning, og forslag til endringer kan forslås (som “issue”) https://github.com/difi/los/issues/new?assignees=&labels=H%C3%B8ringssvar&template=h-ringssvar-og-tilbakemeldinger.md&title=[direkte på Github], eller via epost til  mailto:informasjonsforvaltning@difi.no[informasjonsforvaltning@difi.no].
+Digitaliseringsdirektoratet benytter Github til versjonering og forvaltning, og forslag til endringer kan forslås (som “issue”) https://github.com/difi/los/issues/new?assignees=&labels=H%C3%B8ringssvar&template=h-ringssvar-og-tilbakemeldinger.md&title=[direkte på Github], eller via epost til  mailto:informasjonsforvaltning@digdir.no[informasjonsforvaltning@digdir.no].
 
 == Kriterier for utvidelse
 Forslag til utvidelser av vokabularet vil bli vurdert ut fra følgende kriterier:
@@ -112,7 +112,7 @@ Selve tjenesten (URI-ene som gir svar i rdf/xml) har kontordrift, og Difi gir in
 
 == Vilkår for bruk
 
-Los kan brukes fritt av alle uansett formål. Los  er gjort tilgjengelig under  lisensen https://creativecommons.org/publicdomain/zero/1.0/deed.no[Creative Commons Zero (CC0 1.0)]. Dette innebærer at Difi sier fra seg alle de opphavsrettigheter og nærstående rettigheter til verket og at alle kan kopiere, endre, distribuere Los uten å spørre om tillatelse. Vi ber om at nye produkter basert på Los får en navngivning som gjør det lett for brukerne å skille Los fra avledede produkter.
+Los kan brukes fritt av alle uansett formål. Los  er gjort tilgjengelig under  lisensen https://creativecommons.org/publicdomain/zero/1.0/deed.no[Creative Commons Zero (CC0 1.0)]. Dette innebærer at Digitaliseringsdirektoratet sier fra seg alle de opphavsrettigheter og nærstående rettigheter til verket og at alle kan kopiere, endre, distribuere Los uten å spørre om tillatelse. Vi ber om at nye produkter basert på Los får en navngivning som gjør det lett for brukerne å skille Los fra avledede produkter.
 
 
 == Retningslinjer for videreutvikling av Los
@@ -141,7 +141,7 @@ Ved utforming av nye tema, undertema og emneord skal du bruke ubestemt form av s
 Los er på bokmål, nynorsk og engelsk. Nye tema, undertema, emneord, skjulte søkeord og beskrivelser skal legges til i alle tre språkformer (med språkkodene “nn”, “nb” og “en”). Forslag til nye tema, undertema og emneord bør foreligge på alle tre språkformer slik at de er raske å implementere. Beskrivelsene må foreligge på minst en norsk språkform.
 
 === Legg til rette for åpenhet og sporbarhet
-Alle kan foreslå endringer og melde inn behov. Primært skal dette skje via “Github Issues” eventuelt på epost til informasjonsforvaltning@difi.no. Endringsforslag vil bli samlet opp og vurdert av arbeidsgruppen i tråd med gjeldene revisjonssyklus. Github brukes til å samle og struktrere behov samt spore alle endringer i vokabularet.
+Alle kan foreslå endringer og melde inn behov. Primært skal dette skje via “Github Issues” eventuelt på epost til informasjonsforvaltning@digdir.no. Endringsforslag vil bli samlet opp og vurdert av arbeidsgruppen i tråd med gjeldene revisjonssyklus. Github brukes til å samle og struktrere behov samt spore alle endringer i vokabularet.
 
 
 == Los uttrykt i SKOS
@@ -199,22 +199,15 @@ Videre er emneordet “sykefravær” uttrykt slik i SKOS (denne gangen et eksem
 </rdf:RDF>
 ----
 
-
 == Bidra til Los
-Innmelding av behov og løsningsforslag skjer primært https://github.com/difi/los/[via prosjektets Github-side] (krever Github-bruker), men kan også sendes på epost til mailto:informasjonsforvaltning@difi.no[informasjonsforvaltning@difi.no].
+Innmelding av behov og løsningsforslag skjer primært https://github.com/difi/los/[via prosjektets Github-side] (krever Github-bruker), men kan også sendes på epost til mailto:informasjonsforvaltning@digdir.no[informasjonsforvaltning@digdir.no].
 
 == Lenker
 
-=== Versjon 3.0 RC:
-
-* http://psi.norge.no/los/3/struktur.html[Temastruktur]
-* Listevisning hele Los:  http://psi.norge.no/los/3/view/table-nn[nynorsk ]| http://psi.norge.no/los/3/view/table-nb[bokmål ]| http://psi.norge.no/los/3/view/table-en[engelsk]|
-* Listevisning “Kommune-Los”: http://psi.norge.no/los/3/view/table-nn/samling/kommune-los[nynorsk] | http://psi.norge.no/los/3/view/table-nb/samling/kommune-los[bokmål] | http://psi.norge.no/los/3/view/table-en/samling/kommune-los[engelsk] |
-* http://psi.norge.no/los/3/samling/kommune-los/all.rdf[Last ned "Kommune-Los" (RDF/XML)]
-* http://psi.norge.no/los/3/all.rdf[Last ned komplett datasett (RDF/XML)]
+* http://psi.norge.no/los/struktur.html[Temastruktur]
+* Listevisning hele Los:  http://psi.norge.no/los/view/table-nn[nynorsk ]| http://psi.norge.no/los/view/table-nb[bokmål ]| http://psi.norge.no/los/3/view/table-en[engelsk]|
+* Listevisning “Kommune-Los”: http://psi.norge.no/los/view/table-nn/samling/kommune-los[nynorsk] | http://psi.norge.no/los/3/view/table-nb/samling/kommune-los[bokmål] | http://psi.norge.no/los/3/view/table-en/samling/kommune-los[engelsk] |
+* http://psi.norge.no/los/samling/kommune-los/all.rdf[Last ned "Kommune-Los" (RDF/XML)]
+* http://psi.norge.no/los/all.rdf[Last ned komplett datasett (RDF/XML)]
 * https://github.com/difi/los/issues/new?assignees=&labels=H%C3%B8ringssvar&template=h-ringssvar-og-tilbakemeldinger.md&title=[Gi tilbakemeldinger på Github] (krever bruker og innlogging)
 * https://github.com/difi/los/issues[Oversikt over tilbakemeldinger og innmeldte behov]
-
-=== Versjon 2.0 (utfases)
-* http://psi.norge.no/los/struktur.html[HTML-visning av Los 2.0 ]
-* http://psi.norge.no/los/all.rdf[Last ned Los 2.0] (RDF/XML)
