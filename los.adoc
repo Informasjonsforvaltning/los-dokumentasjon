@@ -14,7 +14,7 @@ Vokabularet er tilrettelagt for bruk i lenkede data-miljøer og er gjort tilgjen
 NOTE: Versjon 3.0  av Los er ute på høring. Gå til http://psi.norge.no/los/3/struktur.html[HTML-visning av Los 3.0 RC]
 eller http://psi.norge.no/los/3/all.rdf[last ned Los 3.0 RC her] (RDF/XML). Mer informasjon om høringen finner du på https://los.difi.no[Los.difi.no]
 
-== Bruksområder
+== Bruksområder [[bruksomrader]]
 Det er flere måter å bruke Los-vokabularet på. Den mest nærliggende er å referere til URIer for begrepene når en skal klassifisere en ressurs i et lenkede data-miljø. http://doc.difi.no/dcat-ap-no[Standard for beskrivelse av datasett og datakataloger] er et eksempel på bruksområder der Los skal brukes primært som referanse til tema ved hjelp av URIer.
 
 Los kan også lastes ned lokalt og brukes som struktur for for eksempel offentlige nettsider. Dersom informasjonen som ligger i RDF/XML-filen blir tatt med i kildekoden for sidene, vil dette bidra til økt søkbarhet ettersom Los tilbyr beskrivelse på flere språk og målformer samt hjelpeord.
@@ -29,7 +29,7 @@ image::images/los-struktur3.png[align=center]
 Det øverste nivået i temastrukturen har termer som ”Arbeid”, “Familie og barn”, "Bygg og eiendom”, osv.
 
 === Hovedtema
-Det øverste nivået av navigasjonsstrukturen angir hovedtemaene. Følgende 15 hovedtemaer er definert i Los 3.0:
+Det øverste nivået <<bruksomrader>> av navigasjonsstrukturen angir hovedtemaene. Følgende 15 hovedtemaer er definert i Los 3.0:
 
 * Arbeid
 * Bygg og eiendom
