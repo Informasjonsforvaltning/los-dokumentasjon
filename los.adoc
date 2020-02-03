@@ -191,8 +191,8 @@ Videre er emneordet “sykefravær” uttrykt slik i SKOS (denne gangen et eksem
     <skos:hiddenLabel lang="nn">Sjukmelding</skos:hiddenLabel>
     <skos:hiddenLabel lang="nb">Sykemelding</skos:hiddenLabel>
     <skos:hiddenLabel lang="nb">Sykmelding</skos:hiddenLabel>
-    <skos:definition lang="nn">Sjukefråver er fråver frå lønna arbeid på grunn av sjukdom.</skos:definition>
-    <skos:definition lang="nb">Sykefravær er fravær fra lønnet arbeid på grunn av sykdom.</skos:definition>
+    <skos:note lang="nn">Sjukefråver er fråver frå lønna arbeid på grunn av sjukdom.</skos:note>
+    <skos:note lang="nb">Sykefravær er fravær fra lønnet arbeid på grunn av sykdom.</skos:note>
     <skos:related rdf:resource="https://psi.norge.no/los/ord/sykepenger"/>
     <skos:broader rdf:resource="https://psi.norge.no/los/tema/arbeidsliv"/>
   </rdf:Description>
