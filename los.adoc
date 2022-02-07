@@ -36,7 +36,6 @@ Det øverste nivået av navigasjonsstrukturen angir hovedtemaene. Følgende 15 h
 * Demokrati og innbyggerrettigheter
 * Familie og barn
 * Helse og omsorg
-* Innvandring og integrering
 * Kultur, idrett og fritid
 * Lov og rett
 * Næring
@@ -56,13 +55,13 @@ For eksempel har hovedtemaet "Bygg og eiendom" følgende undertemaer:
 * Eiendom
 * Flytting
 * Kjøp og salg
-* Kommunale planer
 * Leie og utleie
+* Planer
 * Priser og gebyr for bygg og eiendom
 
 === Emneord
 
-Los inneholder over 430 emneord som er knyttet til ett eller flere undertemaer. Emneordene har (med noen unntak - work in progress) beskrivelser på minst ett språk. I tillegg til å være knyttet til ett (eller flere) undertema (og implisitt også ett eller flere hovedtema), kan emneordene ha hjelpeord (skos:hiddenLabel) knyttet til seg.
+Los inneholder over 430 emneord som er knyttet til ett eller flere undertemaer. Emneordene har (med noen unntak) beskrivelser på minst ett språk. I tillegg til å være knyttet til ett (eller flere) undertema (og implisitt også ett eller flere hovedtema), kan emneordene ha hjelpeord (skos:hiddenLabel) knyttet til seg.
 
 For eksempel har emneordet "Yrkesskadedekning" følgende beskrivelse på bokmål:
 
@@ -89,7 +88,7 @@ Språkkode er angitt i tråd med ISO 639-1 for alle emneord, hjelpeord og defini
 Los inneholder over 1600  hjelpeord i form av synonymer, utgåtte termer og spesifiseringer. Disse er knyttet til emneordene som _skos:hiddenLabel_ og har ikke egne URIer
 
 == Forvaltning
-Los blir utgitt og forvaltet av Digitaliseringsdirektoratet. En egen arbeidsgruppe vurderer behovet for ny versjon basert på tilbakemeldinger hver 3. måned. Revisjonsyklysen skal vurderes på nytt i januar 2021, men minimum en gang i året. Bidrag i form av forslag til oversettelser av termer og definisjoner blir vurdert fortløpende. Utvidelser og tillegg blir ikke varslet utover oppdatering av endringsloggen.  Alle endringer vil derfor være basert på tilbakemeldinger og innmeldte behov.
+Los blir utgitt og forvaltet av Digitaliseringsdirektoratet. En egen arbeidsgruppe vurderer behovet for ny versjon basert på tilbakemeldinger hver 3. måned. Bidrag i form av forslag til oversettelser av termer og definisjoner blir vurdert fortløpende. Utvidelser og tillegg blir ikke varslet utover oppdatering av endringsloggen.  Alle endringer vil derfor være basert på tilbakemeldinger og innmeldte behov.
 
 Digitaliseringsdirektoratet benytter Github til versjonering og forvaltning, og forslag til endringer kan forslås (som “issue”) https://github.com/difi/los/issues/new?assignees=&labels=H%C3%B8ringssvar&template=h-ringssvar-og-tilbakemeldinger.md&title=[direkte på Github], eller via epost til  mailto:informasjonsforvaltning@digdir.no[informasjonsforvaltning@digdir.no].
 
