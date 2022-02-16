@@ -1,5 +1,4 @@
 = Los 
-Digitaliseringsdirektoratet
 :doctype: book
 :icons: font
 :toc: left
@@ -7,6 +6,8 @@ Digitaliseringsdirektoratet
 :source-highlighter: highlightjs
 :sectanchors:
 :title-logo-image: image:images/digitaliseringsdirektoratet.png[pdfwidth=30vw]
+
+image::images/digitaliseringsdirektoratet.png[width=50%, pdfwidth=30vw]
 
 include::locale/attributes-nb.adoc[]
 
