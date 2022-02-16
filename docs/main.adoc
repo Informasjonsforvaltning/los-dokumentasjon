@@ -1,0 +1,24 @@
+= Los 
+Digitaliseringsdirektoratet
+:doctype: book
+:icons: font
+:toc: left
+:toclevels: 3
+:source-highlighter: highlightjs
+:sectanchors:
+:title-logo-image: image:images/digitaliseringsdirektoratet.png[pdfwidth=30vw]
+
+include::locale/attributes-nb.adoc[]
+
+include::shared/download.adoc[]
+
+include::locale/attributes.adoc[]
+
+// For PDF, TOC kommer her:
+toc::[]
+
+
+include::los.adoc[]
+
+// statistikk:
+include::./shared/stats.adoc[]

@@ -1,4 +1,4 @@
-/target
-*.html
-*.pub
+**/*.DS_Store
+index.html
 *.pdf
+*.epub

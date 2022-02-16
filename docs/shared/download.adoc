@@ -1,0 +1,7 @@
+ifeval::["{backend}" == "html5"]
+
+[TIP]
+.Nedlasting av dokumentet
+Dette dokumentet kan også link:files/los-dokumentasjon.pdf[lastes ned som PDF] eller link:files/los-dokumentasjon.epub[som EPUB]. Dersom det oppleves problemer med nedlastet utgave, eksempelvis bilder som mangler eller lenker som ikke fungerer, ber vi om at man benytter versjonen tilgjengelig på nett for de aktuelle delene.
+
+endif::[]
