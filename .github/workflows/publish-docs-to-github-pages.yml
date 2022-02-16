@@ -29,6 +29,13 @@ jobs:
           program: "asciidoctor-pdf -D docs -o files/los-dokumentasjon.pdf -a lang=nb docs/main.adoc"
         continue-on-error: true
 
+      - name: Build epub
+        id: adocbuild_epub
+        uses: avattathil/asciidoctor-action@master
+        with:
+          program: "asciidoctor-epub3 -D . -o files/los-dokumentasjon.epub main.adoc"
+        continue-on-error: true
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
