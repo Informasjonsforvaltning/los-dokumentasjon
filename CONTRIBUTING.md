@@ -61,8 +61,9 @@ For at det følgende skal virke på din maskin, må du ha programvare installert
 ```Shell
 % cd docs
 % docker run -it -v $(pwd):/documents asciidoctor/docker-asciidoctor
-bash-5.0# asciidoctor -D . -o index.html main.adoc
-bash-5.0# asciidoctor-pdf -D . -o files/los-dokumentasjon.pdf main.adoc
+bash-5.1# asciidoctor -D . -o index.html main.adoc
+bash-5.1# asciidoctor-pdf -D . -o files/los-dokumentasjon.pdf main.adoc
+bash-5.1# asciidoctor-epub3 -D . -o files/los-dokumentasjon.epub main.adoc
 ```
 
 Åpne filen index.html i din nettleser.
