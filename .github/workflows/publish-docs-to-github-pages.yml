@@ -33,7 +33,7 @@ jobs:
         id: adocbuild_epub
         uses: avattathil/asciidoctor-action@master
         with:
-          program: "asciidoctor-epub3 -D . -o files/los-dokumentasjon.epub main.adoc"
+          program: "asciidoctor-epub3 -D . -o files/los-dokumentasjon.epub docs/main.adoc"
         continue-on-error: true
 
       - name: Deploy
