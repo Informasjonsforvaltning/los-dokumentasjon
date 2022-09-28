@@ -11,11 +11,8 @@ Vokabularet kan benyttes til en rekke formål, for eksempel:
 
 Vokabularet er tilrettelagt for bruk i lenkede data-miljøer og er gjort tilgjengelig som en nedlastbar RDF/XML-fil i tråd med SKOS-standarden. I tillegg er det laget en tjeneste som viser innholdet på en nettside og som gjør det mulig å gjøre enkeltoppslag mot hver enkelt term i vokabularet (URI-ene gir svar).
 
-NOTE: Versjon 3.0  av Los er ute på høring. Gå til http://psi.norge.no/los/3/struktur.html[HTML-visning av Los 3.0 RC]
-eller http://psi.norge.no/los/3/all.rdf[last ned Los 3.0 RC her] (RDF/XML). Mer informasjon om høringen finner du på https://los.difi.no[Los.difi.no]
-
 == Bruksområder
-Det er flere måter å bruke Los-vokabularet på. Den mest nærliggende er å referere til URIer for begrepene når en skal klassifisere en ressurs i et lenkede data-miljø. http://doc.difi.no/dcat-ap-no[Standard for beskrivelse av datasett og datakataloger] er et eksempel på bruksområder der Los skal brukes primært som referanse til tema ved hjelp av URIer.
+Det er flere måter å bruke Los-vokabularet på. Den mest nærliggende er å referere til URIer for begrepene når en skal klassifisere en ressurs i et lenkede data-miljø. https://data.norge.no/specification/dcat-ap-no/[Standard for beskrivelse av datasett og datakataloger] er et eksempel på bruksområder der Los skal brukes primært som referanse til tema ved hjelp av URIer.
 
 Los kan også lastes ned lokalt og brukes som struktur for for eksempel offentlige nettsider. Dersom informasjonen som ligger i RDF/XML-filen blir tatt med i kildekoden for sidene, vil dette bidra til økt søkbarhet ettersom Los tilbyr beskrivelse på flere språk og målformer samt hjelpeord.
 
@@ -203,10 +200,10 @@ Innmelding av behov og løsningsforslag skjer primært https://github.com/difi/l
 
 == Lenker
 
-* http://psi.norge.no/los/struktur.html[Temastruktur]
-* Listevisning hele Los:  http://psi.norge.no/los/view/table-nn[nynorsk ]| http://psi.norge.no/los/view/table-nb[bokmål ]| http://psi.norge.no/los/3/view/table-en[engelsk]|
-* Listevisning “Kommune-Los”: http://psi.norge.no/los/view/table-nn/samling/kommune-los[nynorsk] | http://psi.norge.no/los/3/view/table-nb/samling/kommune-los[bokmål] | http://psi.norge.no/los/3/view/table-en/samling/kommune-los[engelsk] |
-* http://psi.norge.no/los/samling/kommune-los/all.rdf[Last ned "Kommune-Los" (RDF/XML)]
-* http://psi.norge.no/los/all.rdf[Last ned komplett datasett (RDF/XML)]
+* https://psi.norge.no/los/struktur.html[Temastruktur]
+* Listevisning hele Los:  https://psi.norge.no/los/view/table-nn[nynorsk ]| https://psi.norge.no/los/view/table-nb[bokmål ]| https://psi.norge.no/los/3/view/table-en[engelsk]|
+* Listevisning “Kommune-Los”: https://psi.norge.no/los/view/table-nn/samling/kommune-los[nynorsk] | https://psi.norge.no/los/3/view/table-nb/samling/kommune-los[bokmål] | https://psi.norge.no/los/3/view/table-en/samling/kommune-los[engelsk] |
+* https://psi.norge.no/los/samling/kommune-los/all.rdf[Last ned "Kommune-Los" (RDF/XML)]
+* https://psi.norge.no/los/all.rdf[Last ned komplett datasett (RDF/XML)]
 * https://github.com/difi/los/issues/new?assignees=&labels=H%C3%B8ringssvar&template=h-ringssvar-og-tilbakemeldinger.md&title=[Gi tilbakemeldinger på Github] (krever bruker og innlogging)
 * https://github.com/difi/los/issues[Oversikt over tilbakemeldinger og innmeldte behov]
