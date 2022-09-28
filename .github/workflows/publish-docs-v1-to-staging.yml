@@ -45,8 +45,8 @@ jobs:
         with:
           ontology-type: "docs"
           ontology: "los-dokumentasjon"
-          host: "https://fellesdatakatalog.digdir.no"
-          api-key: ${{ secrets.STATIC_RDF_SERVER_API_KEY }}
+          host: "https://staging.fellesdatakatalog.digdir.no"
+          api-key: ${{ secrets.STATIC_RDF_SERVER_API_KEY_STAGING }}
           files: |
             docs/index.html text/html nb
             docs/files/los-dokumentasjon.pdf application/pdf nb files/los-dokumentasjon.pdf
