@@ -32,6 +32,13 @@ jobs:
           program: "asciidoctor-pdf -D docs -o files/los-dokumentasjon.pdf -a lang=nb docs/main.adoc"
         continue-on-error: true
 
+      - name: Build epub
+        id: adocbuild_epub
+        uses: avattathil/asciidoctor-action@master
+        with:
+          program: "asciidoctor-epub3 -D docs -o files/los-dokumentasjon.epub -a lang=nb docs/main.adoc"
+        continue-on-error: true
+
       - name: Upload rdf to static-rdf-server
         uses: Informasjonsforvaltning/upload-files-to-static-rdf-server-action@v3.1.0
         id: upload-rdf
