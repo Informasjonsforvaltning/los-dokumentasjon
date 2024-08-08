@@ -4,7 +4,7 @@
 :toc: left
 :toclevels: 3
 :source-highlighter: highlightjs
-:sectanchors:
+:sectlinks:
 :title-logo-image: image:images/digitaliseringsdirektoratet.png[pdfwidth=30vw]
 
 image::images/digitaliseringsdirektoratet.png[width=50%, pdfwidth=30vw]
