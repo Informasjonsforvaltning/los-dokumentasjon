@@ -10,48 +10,23 @@ on:
 
 jobs:
   adoc_build:
-    runs-on: ubuntu-latest
     name: asciidoctor build
-
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-        with:
-          ref: v1
-
-      - name: Build html
-        id: adocbuild
-        uses: tonynv/asciidoctor-action@master
-        with:
-          program: "asciidoctor -D docs -o index.html -a lang=nb docs/main.adoc"
-
-      - name: Build pdf
-        id: adocbuild_pdf
-        uses: tonynv/asciidoctor-action@master
-        with:
-          program: "asciidoctor-pdf -D docs -o files/los-dokumentasjon.pdf -a lang=nb docs/main.adoc"
-        continue-on-error: true
-
-      - name: Build epub
-        id: adocbuild_epub
-        uses: tonynv/asciidoctor-action@master
-        with:
-          program: "asciidoctor-epub3 -D docs -o files/los-dokumentasjon.epub -a lang=nb docs/main.adoc"
-        continue-on-error: true
-
-      - name: Upload rdf to static-rdf-server
-        uses: Informasjonsforvaltning/upload-files-to-static-rdf-server-action@v3.2.0
-        id: upload-rdf
-        with:
-          ontology-type: "docs"
-          ontology: "los-dokumentasjon"
-          host: "https://fellesdatakatalog.digdir.no"
-          api-key: ${{ secrets.STATIC_RDF_SERVER_API_KEY }}
-          files: |
-            docs/index.html text/html nb
-            docs/files/los-dokumentasjon.pdf application/pdf nb files/los-dokumentasjon.pdf
-            docs/files/los-dokumentasjon.epub application/epub+zip nb files/los-dokumentasjon.epub
-            docs/images/digitaliseringsdirektoratet.png image/png nb images/digitaliseringsdirektoratet.png
-            docs/images/los-struktur.png image/png nb images/los-struktur.png
-            docs/images/los-struktur3.png image/png nb images/los-struktur3.png
-            docs/images/los.png image/png nb images/los.png
+    uses: Informasjonsforvaltning/workflows/.github/workflows/specification-upload-files.yaml@main
+    with:
+      files: |
+        docs/index.html text/html nb
+        docs/files/los-dokumentasjon.pdf application/pdf nb files/los-dokumentasjon.pdf
+        docs/files/los-dokumentasjon.epub application/epub+zip nb files/los-dokumentasjon.epub
+        docs/images/digitaliseringsdirektoratet.png image/png nb images/digitaliseringsdirektoratet.png
+        docs/images/los-struktur.png image/png nb images/los-struktur.png
+        docs/images/los-struktur3.png image/png nb images/los-struktur3.png
+        docs/images/los.png image/png nb images/los.png
+      program_html: "asciidoctor -D docs -o index.html -a lang=nb docs/main.adoc"
+      program_pdf: "asciidoctor-pdf -D docs -o files/los-dokumentasjon.pdf -a lang=nb docs/main.adoc"
+      program_epub: "asciidoctor-epub3 -D docs -o files/los-dokumentasjon.epub -a lang=nb docs/main.adoc"
+      ontology-type: "guide"
+      ontology: "los-dokumentasjon"
+      host: "https://fellesdatakatalog.digdir.no"
+    secrets:
+      GH_TOKEN: ${{ secrets.GH_TOKEN }}
+      STATIC_RDF_SERVER_API_KEY: ${{ secrets.STATIC_RDF_SERVER_API_KEY }}
