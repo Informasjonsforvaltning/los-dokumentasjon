@@ -28,5 +28,5 @@ jobs:
       ontology: "los-dokumentasjon"
       host: "https://fellesdatakatalog.digdir.no"
     secrets:
-      GH_TOKEN: ${{ secrets.GH_TOKEN }}
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       STATIC_RDF_SERVER_API_KEY: ${{ secrets.STATIC_RDF_SERVER_API_KEY }}
