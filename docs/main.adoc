@@ -1,13 +1,14 @@
 = Los 
+Digitaliseringsdirektoratet (Digdir) / The Norwegian Digitalisation Agency
 :doctype: book
 :icons: font
 :toc: left
 :toclevels: 3
 :source-highlighter: highlightjs
 :sectlinks:
-:title-logo-image: image:images/digitaliseringsdirektoratet.png[pdfwidth=30vw]
+:title-logo-image: image:images/Digdir.png[alt="Digdir-logo", pdfwidth=30vw]
 
-image::images/digitaliseringsdirektoratet.png[width=50%, pdfwidth=30vw]
+image::images/Digdir.png[alt="Digdir-logo", width=30%, pdfwidth=30vw, link=https://digdir.no/]
 
 include::locale/attributes-nb.adoc[]
 
