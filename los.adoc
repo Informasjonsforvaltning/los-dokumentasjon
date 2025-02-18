@@ -21,7 +21,7 @@ Merk at oversettelser til andre målformer og språk ikke er komplett, og at det
 == Struktur
 De tre nivåene i Los er definert ved hjelp av hierarkiske relasjoner (skos:narrower og skos:broader). Hvert undertema (nivå 2) hører til kun ett hovedtema (nivå 1). Emneordene (nivå 3) kan ha relasjoner til flere undertemaer og kan dermed oppstå i flere kontekster (med samme identifikator). I tillegg til hierarkiske relasjoner forekommer det også noen assosiative relasjoner mellom emneord (skos:related).
 
-image::images/los-struktur3.png[align=center]
+image::images/los-struktur3.png[align=center, alt="Tegning med 20 noder fordelt på 4 nivåer og linjer i mellom dem. Tegningen er forklart i teksten."]
 
 Det øverste nivået i temastrukturen har termer som ”Arbeid”, “Familie og barn”, "Bygg og eiendom”, osv.
 
@@ -70,7 +70,7 @@ Emneordet har følgende anbefalte språkvarianter:
 * Bokmål (nb): Yrkesskadedekning
 * Nynorsk (nn): Yrkesskadedekning
 
-...og følgende hjelpeord på bokmål:
+... og følgende hjelpeord på bokmål:
 
 * Arbeidsulykke
 * Skadeforklaring
@@ -171,7 +171,6 @@ Eksempel på undertemet “arbeidsliv” uttrykt i SKOS:
 
 Videre er emneordet “sykefravær” uttrykt slik i SKOS (denne gangen et eksempel i fullstendig RDF):
 
-[source,xml]
 ----
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#">
