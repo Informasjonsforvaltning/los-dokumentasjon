@@ -17,7 +17,7 @@ jobs:
         docs/index.html text/html nb
         docs/files/los-dokumentasjon.pdf application/pdf nb files/los-dokumentasjon.pdf
         docs/files/los-dokumentasjon.epub application/epub+zip nb files/los-dokumentasjon.epub
-        docs/images/digitaliseringsdirektoratet.png image/png nb images/digitaliseringsdirektoratet.png
+        docs/images/Digdir.png image/png nb images/Digdir.png
         docs/images/los-struktur.png image/png nb images/los-struktur.png
         docs/images/los-struktur3.png image/png nb images/los-struktur3.png
         docs/images/los.png image/png nb images/los.png
