@@ -12,7 +12,7 @@ image::images/Digdir.png[alt="Digdir-logo", width=30%, pdfwidth=30vw, link=https
 
 include::locale/attributes-nb.adoc[]
 
-include::shared/download.adoc[]
+include::download.adoc[]
 
 include::locale/attributes.adoc[]
 
@@ -23,4 +23,4 @@ toc::[]
 include::los.adoc[]
 
 // statistikk:
-include::./shared/stats.adoc[]
+include::./shared/analytics.adoc[]
