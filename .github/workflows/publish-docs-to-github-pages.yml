@@ -13,7 +13,6 @@ jobs:
     uses: Informasjonsforvaltning/workflows/.github/workflows/specification-github-pages.yaml@main
     with:
       program_html: "asciidoctor -D docs -o index.html -a lang=nb docs/main.adoc"
-      program_epub: "asciidoctor-epub3 -D docs -o files/los-dokumentasjon.epub -a lang=nb docs/main.adoc"
       program_pdf: "asciidoctor-pdf -D docs -o files/los-dokumentasjon.pdf -a lang=nb docs/main.adoc"
       publish_branch: gh-pages
       publish_dir: ./docs
