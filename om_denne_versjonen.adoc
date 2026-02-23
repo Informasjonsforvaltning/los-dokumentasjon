@@ -1,0 +1,4 @@
+== Om denne versjonen
+
+[WARNING] 
+Denne versjonen av dokumentasjonen forklarer https://skosmos.demo.fellesdatakatalog.digdir.no/los/nn/[høringsversjonen &#x29C9;, window="_blank", role="ext-link"] (#@@@@@@ husk å oppdatere lenken#) til kommende Los 4.0 og ikke til den eksisterende Los 3.0. 
