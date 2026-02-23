@@ -2,7 +2,9 @@
 
 === Hovedprinsipper lagt til grunn for Los-strukturen [[hovedprinsipper]]
 
-Følgende hovedprinsipper ligger til grunn for (#kommende#) Los 4.0:
+__#@@@@@@ vurder å ta dette avsnitt ut til et eget kapittel sammen med ev. kriterier for utvidelse av Los#__
+
+Los skal over tid være stabil og robust. Følgende hovedprinsipper ligger derfor til grunn for strukturen og innholdet i Los:
 
 . Los skal inneholde *nøytrale temaer*, slik at de skal kunne brukes til å klassifisere ikke bare tjenester, men også ressurser som kan være data, applikasjoner osv. Los-temaer skal med andre ord være uavhengige av hvordan tjenester og ressurser er organisert og levert, uavhengige av løsninger og teknologier osv. Over tid vil Los dermed kunne inneholde *stabile temaer* som ikke vil kreve hyppige endringer.
 ** Eksempel: «Helse – barn og unge» er valgt som tema, og kan brukes på «skolehelsetjenesten», «helseundersøkelser hos barn og unge», «helseinformasjon rettet mot barn og unge» osv. 
