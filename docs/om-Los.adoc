@@ -1,0 +1,35 @@
+== Om Los [[om-Los]]
+
+=== Formål med Los [[Formål]]
+Los er et felles vokabular for klassifisering av offentlige tjenester og ressurser.
+
+Vokabularet kan benyttes til en rekke formål, for eksempel:
+
+* kategorisere og beskrive offentlige tjenester (som for eksempel innbyggertjenester) og ressurser (som for eksempel datasett, API-er og informasjonsmodeller)
+* optimalisere søk på nettsider (ved hjelp av flerspråklighet og synonymer)
+* som parallellkorpus (bokmål, nynorsk og engelsk) for oversettingstjenester og maskinlæring
+* kategorisere offentlige tjenester og ressurser på tvers av landegrenser (tilrettelegging for EUs Single Digital Gateway)
+
+Vokabularet er tilrettelagt for bruk i lenkede data-miljøer og er gjort tilgjengelig i maskinlesbart format https://www.w3.org/RDF/[RDF &#x29C9;, window="_blank", role="ext-link"] i tråd med https://data.norge.no/specification/xkos-ap-no[Spesifikasjon for klassifikasjonsbeskrivelser (XKOS-AP-NO) &#x29C9;, window="_blank", role="ext-link"]. Den unike identifikatoren (URI-en, «lenken») til et tema i Los, vil lede frem til en menneskelesbar HTML-side om det temaet, eller til en RDF-representasjon av det aktuelle temaet når det er en dataapplikasjon som bruker URI-en. 
+
+Det er flere måter å bruke Los-vokabularet på. Den mest nærliggende er å referere til temaene når en skal klassifisere en ressurs i et lenkede data-miljø. F.eks., i https://data.norge.no/specification/dcat-ap-no/["Standard for beskrivelse av datasett, datatjenester og datakataloger (DCAT-AP-NO) &#x29C9;", window="_blank", role="ext-link"] er Los anbefalt brukt til å kategorisere datasett, datatjeneste og datakataloger, og i https://data.norge.no/specification/cpsv-ap-no/["Spesifikasjon for tjeneste- og hendelsesbeskrivelser (CPSV-AP-NO) &#x29C9;", window="_blank", role="ext-link"] er Los anbefalt brukt til å kategorisere tjenester og tjenestekataloger. 
+
+=== Omfang og avgrensning [[Omfang]]
+
+Det er ikke et mål at det for enhver offentlig tjeneste og ressurs skal finnes tema i Los som har nøyaktig det samme navnet og til nøyaktig den samme detaljeringsgraden. Det er derimot et mål for Los at enhver offentlig tjeneste og ressurs skal kunne klassifiseres under et tema i Los som har et navn og en detaljeringsgrad som er tilstrekkelig nær den aktuelle tjenesten eller ressursen. For sammensatte og tverrgående tjenester og ressurser kan det være flere relevante temaer i Los, som til sammen gir en tilstrekkelig nær klassifisering. 
+
+Uansett hvor mange nivåer Los kommer til å ha, vil det alltid være tjenester og ressurser som er mer spesifikke enn det mest spesifikke temaet i Los. Man bør derfor vurdere å utvide Los med sine egne subgrener for å kunne klassifisere disse tjenestene og ressursene mer presist. Subgrener bør tilgjengeliggjøres i tråd med https://data.norge.no/specification/xkos-ap-no[Spesifikasjon for klassifikasjonsbeskrivelser (XKOS-AP-NO) &#x29C9;, window="_blank", role="ext-link"]. En slik subgren bør også referere til det relevante temaet i Los som overordnet kategori, slik at temaene i subgrenen kan aggregeres opp til det aktuelle Los-temaet for f.eks. statistiske formål. 
+
+Merk at oversettelser til engelsk ikke er komplett, og at det er mulig å bidra til flere oversettelser direkte i vokabularets kildekode på Github.
+
+Se også under <<Bidra-til-los>> for hvordan du kan bidra til å videreutvikle Los.
+
+=== Vilkår for bruk av Los [[Vilkår-for-bruk]]
+
+Los kan brukes fritt av alle uansett formål. Los  er gjort tilgjengelig under  lisensen https://creativecommons.org/publicdomain/zero/1.0/deed.no[Creative Commons Zero (CC0 1.0) &#x29C9;, window="_blank", role="ext-link"]. Dette innebærer at Digitaliseringsdirektoratet sier fra seg alle de opphavsrettigheter og nærstående rettigheter til verket og at alle kan kopiere, endre, distribuere Los uten å spørre om tillatelse. Vi ber om at nye produkter basert på Los får en navngivning som gjør det lett for brukerne å skille Los fra avledede produkter.
+
+=== Forvaltning [[Forvaltning]]
+
+Digitaliseringsdirektoratet (Digdir) skal sørge for at Los blir oppdatert etter behov, og at Los blir gjort tilgjengelig i både menneskelesbar og maskinlesbar form. 
+
+Digitaliseringsdirektoratet benytter Github til versjonering og forvaltning. Se under <<Bidra-til-los>> for hvordan du kan melde inn behov og løsningsforslag.
