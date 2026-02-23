@@ -5,5 +5,5 @@
 * Listevisning “Kommune-Los”: https://psi.norge.no/los/view/table-nn/samling/kommune-los[nynorsk] | https://psi.norge.no/los/3/view/table-nb/samling/kommune-los[bokmål] | https://psi.norge.no/los/3/view/table-en/samling/kommune-los[engelsk] |
 * https://psi.norge.no/los/samling/kommune-los/all.rdf[Last ned "Kommune-Los" (RDF/XML)]
 * https://psi.norge.no/los/all.rdf[Last ned komplett datasett (RDF/XML)]
-* https://github.com/difi/los/issues/new?assignees=&labels=H%C3%B8ringssvar&template=h-ringssvar-og-tilbakemeldinger.md&title=[Gi tilbakemeldinger på Github] (krever bruker og innlogging)
+* https://github.com/difi/los/issues/new?assignees=&labels=H%C3%B8ringssvar&template=h-ringssvar-og-tilbakemeldinger.md&title=[Gi tilbakemeldinger på GitHub] (krever bruker og innlogging)
 * https://github.com/difi/los/issues[Oversikt over tilbakemeldinger og innmeldte behov]
