@@ -16,7 +16,7 @@ Det er flere måter å bruke Los-vokabularet på. Den mest nærliggende er å re
 
 Los kan også lastes ned lokalt og brukes som struktur for for eksempel offentlige nettsider. Dersom informasjonen som ligger i RDF/XML-filen blir tatt med i kildekoden for sidene, vil dette bidra til økt søkbarhet ettersom Los tilbyr beskrivelse på flere språk og målformer samt hjelpeord.
 
-Merk at oversettelser til andre målformer og språk ikke er komplett, og at det er mulig å bidra til flere oversettelser direkte i vokabularets kildekode på Github.
+Merk at oversettelser til andre målformer og språk ikke er komplette, og at det er mulig å bidra til flere oversettelser direkte i vokabularets kildekode på GitHub.
 
 == Struktur
 De tre nivåene i Los er definert ved hjelp av hierarkiske relasjoner (skos:narrower og skos:broader). Hvert undertema (nivå 2) hører til kun ett hovedtema (nivå 1). Emneordene (nivå 3) kan ha relasjoner til flere undertemaer og kan dermed oppstå i flere kontekster (med samme identifikator). I tillegg til hierarkiske relasjoner forekommer det også noen assosiative relasjoner mellom emneord (skos:related).
@@ -87,7 +87,7 @@ Los inneholder over 1600  hjelpeord i form av synonymer, utgåtte termer og spes
 == Forvaltning
 Los blir utgitt og forvaltet av Digitaliseringsdirektoratet. En egen arbeidsgruppe vurderer behovet for ny versjon basert på tilbakemeldinger hver 3. måned. Bidrag i form av forslag til oversettelser av termer og definisjoner blir vurdert fortløpende. Utvidelser og tillegg blir ikke varslet utover oppdatering av endringsloggen.  Alle endringer vil derfor være basert på tilbakemeldinger og innmeldte behov.
 
-Digitaliseringsdirektoratet benytter Github til versjonering og forvaltning, og forslag til endringer kan forslås (som “issue”) https://github.com/difi/los/issues/new?assignees=&labels=H%C3%B8ringssvar&template=h-ringssvar-og-tilbakemeldinger.md&title=[direkte på Github], eller via epost til  mailto:informasjonsforvaltning@digdir.no[informasjonsforvaltning@digdir.no].
+Digitaliseringsdirektoratet benytter GitHub til versjonering og forvaltning, og forslag til endringer kan forslås (som “issue”) https://github.com/difi/los/issues/new?assignees=&labels=H%C3%B8ringssvar&template=h-ringssvar-og-tilbakemeldinger.md&title=[direkte på GitHub], eller via epost til  mailto:informasjonsforvaltning@digdir.no[informasjonsforvaltning@digdir.no].
 
 == Kriterier for utvidelse
 Forslag til utvidelser av vokabularet vil bli vurdert ut fra følgende kriterier:
@@ -137,7 +137,7 @@ Ved utforming av nye tema, undertema og emneord skal du bruke ubestemt form av s
 Los er på bokmål, nynorsk og engelsk. Nye tema, undertema, emneord, skjulte søkeord og beskrivelser skal legges til i alle tre språkformer (med språkkodene “nn”, “nb” og “en”). Forslag til nye tema, undertema og emneord bør foreligge på alle tre språkformer slik at de er raske å implementere. Beskrivelsene må foreligge på minst en norsk språkform.
 
 === Legg til rette for åpenhet og sporbarhet
-Alle kan foreslå endringer og melde inn behov. Primært skal dette skje via “Github Issues” eventuelt på epost til informasjonsforvaltning@digdir.no. Endringsforslag vil bli samlet opp og vurdert av arbeidsgruppen i tråd med gjeldene revisjonssyklus. Github brukes til å samle og struktrere behov samt spore alle endringer i vokabularet.
+Alle kan foreslå endringer og melde inn behov. Primært skal dette skje via “GitHub Issues” eventuelt på epost til informasjonsforvaltning@digdir.no. Endringsforslag vil bli samlet opp og vurdert av arbeidsgruppen i tråd med gjeldene revisjonssyklus. GitHub brukes til å samle og struktrere behov samt spore alle endringer i vokabularet.
 
 
 == Los uttrykt i SKOS
@@ -195,7 +195,7 @@ Videre er emneordet “sykefravær” uttrykt slik i SKOS (denne gangen et eksem
 ----
 
 == Bidra til Los
-Innmelding av behov og løsningsforslag skjer primært https://github.com/difi/los/[via prosjektets Github-side] (krever Github-bruker), men kan også sendes på epost til mailto:informasjonsforvaltning@digdir.no[informasjonsforvaltning@digdir.no].
+Innmelding av behov og løsningsforslag skjer primært https://github.com/difi/los/[via prosjektets GitHub-side] (krever GitHub-bruker), men kan også sendes på epost til mailto:informasjonsforvaltning@digdir.no[informasjonsforvaltning@digdir.no].
 
 == Lenker
 
@@ -204,5 +204,5 @@ Innmelding av behov og løsningsforslag skjer primært https://github.com/difi/l
 * Listevisning “Kommune-Los”: https://psi.norge.no/los/view/table-nn/samling/kommune-los[nynorsk] | https://psi.norge.no/los/3/view/table-nb/samling/kommune-los[bokmål] | https://psi.norge.no/los/3/view/table-en/samling/kommune-los[engelsk] |
 * https://psi.norge.no/los/samling/kommune-los/all.rdf[Last ned "Kommune-Los" (RDF/XML)]
 * https://psi.norge.no/los/all.rdf[Last ned komplett datasett (RDF/XML)]
-* https://github.com/difi/los/issues/new?assignees=&labels=H%C3%B8ringssvar&template=h-ringssvar-og-tilbakemeldinger.md&title=[Gi tilbakemeldinger på Github] (krever bruker og innlogging)
+* https://github.com/difi/los/issues/new?assignees=&labels=H%C3%B8ringssvar&template=h-ringssvar-og-tilbakemeldinger.md&title=[Gi tilbakemeldinger på GitHub] (krever bruker og innlogging)
 * https://github.com/difi/los/issues[Oversikt over tilbakemeldinger og innmeldte behov]
