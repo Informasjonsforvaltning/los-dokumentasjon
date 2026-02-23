@@ -18,6 +18,7 @@ Det er flere måter å bruke Los-vokabularet på. Den mest nærliggende er å re
 
 Det er ikke et mål at det for enhver offentlig tjeneste og ressurs skal finnes tema i Los som har nøyaktig det samme navnet og til nøyaktig den samme detaljeringsgraden. Det er derimot et mål for Los at enhver offentlig tjeneste og ressurs skal kunne klassifiseres under et tema i Los som har et navn og en detaljeringsgrad som er tilstrekkelig nær den aktuelle tjenesten eller ressursen. For sammensatte og tverrgående tjenester og ressurser kan det være flere relevante temaer i Los, som til sammen gir en tilstrekkelig nær klassifisering. 
 
+__#@@@@@@ vurder å ha et eget kapittel om bruk av Los, istedenfor å "gjemme" denne type forklaringer i "Omfang og avgrensning".#__
 Uansett hvor mange nivåer Los kommer til å ha, vil det alltid være tjenester og ressurser som er mer spesifikke enn det mest spesifikke temaet i Los. Man bør derfor vurdere å utvide Los med sine egne subgrener for å kunne klassifisere disse tjenestene og ressursene mer presist. Subgrener bør tilgjengeliggjøres i tråd med https://data.norge.no/specification/xkos-ap-no[Spesifikasjon for klassifikasjonsbeskrivelser (XKOS-AP-NO) &#x29C9;, window="_blank", role="ext-link"]. En slik subgren bør også referere til det relevante temaet i Los som overordnet kategori, slik at temaene i subgrenen kan aggregeres opp til det aktuelle Los-temaet for f.eks. statistiske formål. 
 
 Merk at oversettelser til engelsk ikke er komplette, og at det er mulig å bidra til flere oversettelser direkte i vokabularets kildekode på GitHub.
