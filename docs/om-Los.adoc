@@ -20,7 +20,7 @@ Det er ikke et mål at det for enhver offentlig tjeneste og ressurs skal finnes 
 
 Uansett hvor mange nivåer Los kommer til å ha, vil det alltid være tjenester og ressurser som er mer spesifikke enn det mest spesifikke temaet i Los. Man bør derfor vurdere å utvide Los med sine egne subgrener for å kunne klassifisere disse tjenestene og ressursene mer presist. Subgrener bør tilgjengeliggjøres i tråd med https://data.norge.no/specification/xkos-ap-no[Spesifikasjon for klassifikasjonsbeskrivelser (XKOS-AP-NO) &#x29C9;, window="_blank", role="ext-link"]. En slik subgren bør også referere til det relevante temaet i Los som overordnet kategori, slik at temaene i subgrenen kan aggregeres opp til det aktuelle Los-temaet for f.eks. statistiske formål. 
 
-Merk at oversettelser til engelsk ikke er komplett, og at det er mulig å bidra til flere oversettelser direkte i vokabularets kildekode på Github.
+Merk at oversettelser til engelsk ikke er komplette, og at det er mulig å bidra til flere oversettelser direkte i vokabularets kildekode på GitHub.
 
 Se også under <<Bidra-til-los>> for hvordan du kan bidra til å videreutvikle Los.
 
@@ -32,4 +32,4 @@ Los kan brukes fritt av alle uansett formål. Los  er gjort tilgjengelig under  
 
 Digitaliseringsdirektoratet (Digdir) skal sørge for at Los blir oppdatert etter behov, og at Los blir gjort tilgjengelig i både menneskelesbar og maskinlesbar form. 
 
-Digitaliseringsdirektoratet benytter Github til versjonering og forvaltning. Se under <<Bidra-til-los>> for hvordan du kan melde inn behov og løsningsforslag.
+Digitaliseringsdirektoratet benytter GitHub til versjonering og forvaltning. Se under <<Bidra-til-los>> for hvordan du kan melde inn behov og løsningsforslag.

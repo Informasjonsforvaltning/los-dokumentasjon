@@ -1,3 +1,3 @@
 == Bidra til Los [[Bidra-til-los]]
 
-Innmelding av behov og løsningsforslag skjer primært https://github.com/difi/los/[via prosjektets Github-side &#x29C9;, window="_blank", role="ext-link"] (krever Github-bruker), men kan også sendes på e-post til mailto:informasjonsforvaltning@digdir.no[informasjonsforvaltning@digdir.no].
+Innmelding av behov og løsningsforslag skjer primært https://github.com/difi/los/[via prosjektets GitHub-side &#x29C9;, window="_blank", role="ext-link"] (krever GitHub-bruker), men kan også sendes på e-post til mailto:informasjonsforvaltning@digdir.no[informasjonsforvaltning@digdir.no].
