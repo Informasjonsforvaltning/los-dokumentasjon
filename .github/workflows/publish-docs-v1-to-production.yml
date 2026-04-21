@@ -7,6 +7,9 @@ on:
     paths:
       - docs/**
   workflow_dispatch:
+ 
+permissions:
+  contents: read
 
 jobs:
   adoc_build:
